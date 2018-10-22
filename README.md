@@ -7,7 +7,7 @@ This application indicator resides in the Applicaton/Top bar and displays the in
 1. Clone the repository
 2. Open a terminal inside the `src` folder
 3. Execute the python script `appindicator.py`
-4. Watch the magic on your Top/Activity bar, right-hand side most probably.
+4. Watch the magic unfold on your Top/Activity bar, right-hand side most probably.
 
 ## Proof of Concept
-![Appindicator](https://)
+![Appindicator](https://github.com/armsp/disradicator/blob/master/docs/movie.gif)
