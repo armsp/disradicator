@@ -14,3 +14,5 @@ An incomplete list of possible improvements and directions to take this project 
 
 Immediate Attentions -
 * Change the icon set. They require attribution.
+* Decouple the terminal that runs the python script from the process itself.
+
