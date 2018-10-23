@@ -5,7 +5,7 @@ This application indicator resides in the Applicaton/Top bar and displays the in
 
 **Name**  
 dis-ra-dicator : discharge-rate-indicator  
-Has a dinosaury vibe to it.....velociraptor, disradicator......maybe more of a Terminator vibe !
+Has a dinosaury 🦖 vibe to it.....velociraptor, disradicator......maybe more of a Terminator vibe !
 
 ## Usage
 1. Clone the repository
