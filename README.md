@@ -4,7 +4,7 @@ Welcome to the README of **Discharge Rate Indicator** for Ubuntu Unity desktop e
 This application indicator resides in the Applicaton/Top bar and displays the instantaneous power usage a.k.a discharge rate of the battery every 3 seconds. There is a visual indicator too that averages the instantaneous values for 5 measurements. 
 
 **Name**  
-dis-ra-dicator : discharge-rate-indicator
+dis-ra-dicator : discharge-rate-indicator  
 Has a dinosaury vibe to it.....velociraptor, disradicator......maybe more of a Terminator vibe !
 
 ## Usage
