@@ -13,6 +13,6 @@ An incomplete list of possible improvements and directions to take this project 
 * Supporting various platforms
 
 Immediate Attentions -
-* Change the icon set. They require attribution.
+* Change the icon set. The icon is actually pretty large and it has details that aren't visible at all.
 * Decouple the terminal that runs the python script from the process itself.
 
