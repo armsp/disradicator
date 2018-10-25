@@ -10,6 +10,7 @@ An incomplete list of possible improvements and directions to take this project 
 * Make an executable, perhaps something like _Caffeine_
 * Make a portable app like _Postman_
 * Supporting various distros
+  - Temporary Workaround for using this app-indicator is to use an [extension](https://extensions.gnome.org/extension/615/appindicator-support/). This [article](https://www.omgubuntu.co.uk/2017/03/use-indicator-applets-gnome-shell) would be a good starting point to resolve this issue without having to install a third party extension.
 * Supporting various platforms
 
 Immediate Attentions -
