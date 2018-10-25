@@ -1,4 +1,4 @@
-An incomplete list of possible improvements and directions to take this project to -
+### An incomplete list of possible improvements and directions to take this project to -
 * Daemonize the process
   1. Using python [`daemon`](https://pagure.io/python-daemon/)([docs](https://www.python.org/dev/peps/pep-3143/)) or inbuilt `subprocess` library
   2. Using Linux itself like `nohup`, `twisted`, `upstart`, [`daemonize`](http://manpages.ubuntu.com/manpages/bionic/man1/daemonize.1.html)
@@ -13,7 +13,7 @@ An incomplete list of possible improvements and directions to take this project 
   - Temporary Workaround for using this app-indicator is to use an [extension](https://extensions.gnome.org/extension/615/appindicator-support/). This [article](https://www.omgubuntu.co.uk/2017/03/use-indicator-applets-gnome-shell) would be a good starting point to resolve this issue without having to install a third party extension.
 * Supporting various platforms
 
-Immediate Attentions -
+#### Immediate Attentions -
 * Change the icon set. The icon is actually pretty large and it has details that aren't visible at all.
 * Decouple the terminal that runs the python script from the process itself.
 
