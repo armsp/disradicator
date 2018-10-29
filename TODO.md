@@ -27,3 +27,7 @@
 * Change the icon set. The icon is actually pretty large and it has details that aren't visible at all.
 * Decouple the terminal that runs the python script from the process itself.
 
+### Should we add the following?
+- Travis Continuous Integration
+- Pyup
+- Coverage
