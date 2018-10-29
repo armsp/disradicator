@@ -1,11 +1,20 @@
 # Discharge Rate Indicator
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/armsp/disradicator/graphs/commit-activity)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/armsp/disradicator/issues)
+
+
 Welcome to the README of **Discharge Rate Indicator** for Ubuntu Unity desktop environment.  
 
 This application indicator resides in the Applicaton/Top bar and displays the instantaneous power usage a.k.a discharge rate of the battery every 3 seconds. There is a visual indicator too that averages the instantaneous values for 5 measurements. 
 
 #### Name
 **dis-ra-dicator** : discharge-rate-indicator  
-Has a dinosaury 🦖 vibe to it.....velociraptor, disradicator......maybe more of a Terminator vibe !
+Has a dinosaury 🦖 vibe to it.....velociraptor, disradicator......maybe more of a Terminator vibe !  
+Or, as pointed out by [Raghu](https://github.com/krishraghuram)  
+**dis-radicator** : discharge-eradicator  
+Which is also accurate as it keeps you aware of your discharge rate thereby helping you slow it down.
 
 ## Dependencies
 [Needs citation]
