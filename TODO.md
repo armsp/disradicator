@@ -31,3 +31,14 @@
 - Travis Continuous Integration
 - Pyup
 - Coverage
+------------------------------------------------
+### Updates on decoupling the terminal that spawns the process
+
+| **COMMAND** | **OUTPUT** | **ISSUE** |
+| :--- | :--- | ---: |
+| `python3 appindicator.py &` |  | Killing the terminal terminates the proceses |
+| `sudo nohup python3 appindicator.py &` |  | No output |
+| `nohup python3 appindicator.py &` | $ nohup python3 appindicator.py & <br>  [2] 5635 <br> $ nohup: ignoring input and appending output to 'nohup.out' Exitng from GUI doesn't show a new prompt. Have to do Ctrl+C to get new line at terminal | |
+| `subprocess.Popen` | | Works perfectly. However don't want a new file to start the process |
+| `chmod +x doesn't work` | | Doesn't work |
+
