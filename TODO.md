@@ -27,3 +27,18 @@
 * Change the icon set. The icon is actually pretty large and it has details that aren't visible at all.
 * Decouple the terminal that runs the python script from the process itself.
 
+### Should we add the following?
+- Travis Continuous Integration
+- Pyup
+- Coverage
+------------------------------------------------
+### Updates on decoupling the terminal that spawns the process
+
+| **COMMAND** | **OUTPUT** | **ISSUE** |
+| :--- | :--- | ---: |
+| `python3 appindicator.py &` |  | Killing the terminal terminates the proceses |
+| `sudo nohup python3 appindicator.py &` |  | No output |
+| `nohup python3 appindicator.py &` | $ nohup python3 appindicator.py & <br>  [2] 5635 <br> $ nohup: ignoring input and appending output to 'nohup.out' Exitng from GUI doesn't show a new prompt. Have to do Ctrl+C to get new line at terminal | |
+| `subprocess.Popen` | | Works perfectly. However don't want a new file to start the process |
+| `chmod +x doesn't work` | | Doesn't work |
+
