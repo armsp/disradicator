@@ -18,7 +18,11 @@ Has a dinosaury 🦖 vibe to it.....velociraptor, disradicator......maybe more o
   - libgtk-3-dev
   - libgirepository1.0-dev
   - python3-pyside
-  
+
+Resources to help after the above fails-
+- [PyGObject Env Setup](https://pygobject.readthedocs.io/en/latest/devguide/dev_environ.html)  
+- [PyGObject Quickstart](https://pygobject.readthedocs.io/en/latest/getting_started.html#ubuntu-getting-started)
+
 ## Usage
 1. Clone the repository
 2. Open a terminal inside the `src` folder
