@@ -39,7 +39,7 @@ Resources to help after the above fails-
 ## Usage
 1. Clone the repository
 2. Open a terminal inside the `src` folder
-3. Execute the python script `appindicator.py`
+3. Execute the python script `start.py`
 4. Watch the magic unfold on your Top/Activity bar, right-hand side most probably.
 
 ## Proof of Concept
