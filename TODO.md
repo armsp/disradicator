@@ -7,7 +7,9 @@
 * Optimize the [memory usage](https://virtualthreads.blogspot.com/2006/02/understanding-memory-usage-on-linux.html) of the application
 * Optimize the CPU usage of the application
 * Add it in _StartupApplications_
+  - [Possible solution](https://stackoverflow.com/questions/501597/how-to-distribute-desktop-files-and-icons-for-a-python-package-in-gnome-with?noredirect=1&lq=1)
 * Make an executable, perhaps something like _Caffeine_
+  - Same possible solution as above
 * Make a portable app like _Postman_
 * Supporting various distros
   1. **Ubuntu Gnome**
