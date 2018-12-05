@@ -44,9 +44,10 @@ Resources to help after the above fails -
 
 ## Usage
 1. Clone the repository
-2. Open a terminal inside the `src` folder
-3. Execute the python script `start.py`
-4. Watch the magic unfold on your Top/Activity bar, right-hand side most probably.
+2. Extract and go inside the root folder
+3. Execute `pip3 install -e .` ( It installs it in development mode. This way you can keep pulling changes from my repository and the changes would be reflected immediately in your environment )
+4. Open your terminal and type **disradicator** and press enter.
+5. Watch the magic unfold on your Top/Activity bar, right-hand side most probably.
 
 ## Proof of Concept
 ![Appindicator](https://github.com/armsp/disradicator/blob/master/docs/movie.gif)
