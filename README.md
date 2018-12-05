@@ -22,6 +22,7 @@ Which is also accurate as it keeps you aware of your discharge rate thereby help
 
 ## Dependencies Installation
 Refer [this gist](https://gist.github.com/armsp/f8ebd071741a60b3cf20c809310170e7) for a docker image that can run any python3 gobject script. You can also try to understand the dependencies from there.
+
 | PACKAGE | Installation |
 | :--- | :--- |
 | python3-gi | apt-get install python3-gi |
