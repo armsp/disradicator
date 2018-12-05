@@ -11,6 +11,7 @@ from gi.repository import AppIndicator3 as appindicator
 APPINDICATOR_ID = 'myappindicator'
 DEQUE_LEN = 5
 circular_buf = deque(maxlen=DEQUE_LEN)
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def change_label(ind_app):
     '''Update the label text of the appindicator.
@@ -18,19 +19,22 @@ def change_label(ind_app):
     power = find_power()
     if power in ('Charging', 'Unknown', 'Full', 'Undefined'):
         ind_app.set_label(power, '8.8')
+        if power == 'Charging':
+            ind_app.set_icon(os.path.join(ROOT_DIR, 'icons/charging.svg'))
         return True
     else:
         circular_buf.append(power)
         mean_power = sum(circular_buf)/len(circular_buf)
         ind_app.set_label('{:.1f}'.format(power), '8.8')
+        #print("Power Drain {:.1f}".format(power))
         if mean_power <= 4.5:
-            ind_app.set_icon(os.path.abspath('icons/microchip_green.svg'))
+            ind_app.set_icon(os.path.join(ROOT_DIR, 'icons/microchip_green.svg'))
         elif 6 >= mean_power > 4.5:
-            ind_app.set_icon(os.path.abspath('icons/microchip_yellow.svg'))
+            ind_app.set_icon(os.path.join(ROOT_DIR, 'icons/microchip_yellow.svg'))
         elif 9 >= mean_power > 6:
-            ind_app.set_icon(os.path.abspath('icons/microchip_orange.svg'))
+            ind_app.set_icon(os.path.join(ROOT_DIR, 'icons/microchip_orange.svg'))
         else:
-            ind_app.set_icon(os.path.abspath('icons/microchip_red.svg'))
+            ind_app.set_icon(os.path.join(ROOT_DIR, 'icons/microchip_red.svg'))
         return True
 
 # Quit menu
@@ -55,8 +59,8 @@ def get_readings():
                 voltage = voltage_file.read()
         except EnvironmentError:
             voltage = None
-    
-    if charging_status != None: 
+
+    if charging_status != None:
         return charging_status, current, voltage
     else:
         return None, None, None
@@ -73,7 +77,7 @@ def find_power():
         return power
 
 #Define the indicator app
-ind_app = appindicator.Indicator.new(APPINDICATOR_ID, os.path.abspath('icons/microchip.svg'), appindicator.IndicatorCategory.SYSTEM_SERVICES)
+ind_app = appindicator.Indicator.new(APPINDICATOR_ID, os.path.join(ROOT_DIR, 'icons/microchip.svg'), appindicator.IndicatorCategory.SYSTEM_SERVICES)
 ind_app.set_status(appindicator.IndicatorStatus.ACTIVE)
 
 # Create a menu
