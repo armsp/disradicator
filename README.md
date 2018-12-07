@@ -51,7 +51,7 @@ Resources to help after the above fails -
 5. Watch the magic unfold on your Top/Activity bar, right-hand side most probably.
 
 ## Proof of Concept
-![Appindicator](https://github.com/armsp/disradicator/blob/master/docs/movie.gif)
+![Appindicator](https://github.com/armsp/disradicator/blob/first_release/docs/movie.gif)
 
 #### COPYRIGHT and LICENSE
 All the source files are licensed under GNU GLPv3 license. Refer [LICENSE](https://github.com/armsp/gifc/blob/master/LICENSE) for more details.  
