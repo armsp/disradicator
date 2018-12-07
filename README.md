@@ -42,5 +42,9 @@ Resources to help after the above fails-
 3. Execute the python script `start.py`
 4. Watch the magic unfold on your Top/Activity bar, right-hand side most probably.
 
-## Proof of Concept
+## Proof of Concept (Old)
 ![Appindicator](https://github.com/armsp/disradicator/blob/master/docs/movie.gif)
+
+## Proof of Concept First Release (New)
+Please checkout the **first_release** branch for a pip installable version.
+![Appindicator_New](https://github.com/armsp/disradicator/blob/first_release/docs/movie.gif)
